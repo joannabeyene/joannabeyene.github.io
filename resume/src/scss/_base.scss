@@ -1,0 +1,38 @@
+/*****************************GENERAL AND MISCELLANEOUS STYLING**********************************************/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Quattrocento', serif;
+}
+@media screen and (min-width: 801px) {
+    h1 {
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 5vw;
+    }
+}
+/*****************************BACK TO TOP BUTTON**********************************************/
+// .back-to-top {
+//     position: fixed; 
+//     bottom: 20px;
+//     right: 30px; 
+//     z-index: 99;
+//     border: 1px solid #000;
+//     background-color: #fff;
+//     padding: 0.5vw;
+//     font-weight: bold;
+// }
+// .back-to-top a, .back-to-top a:visited {
+//     color: #000;
+// }
+// .back-to-top:hover {
+//     background-color: #722c3d;
+// }

@@ -1,0 +1,33 @@
+.landing-page {
+    background-color: #5a212f;
+    box-shadow: 0 2px 10px #808080;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+
+}
+.cursiv-text {
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: 'Handlee', cursive;
+    margin-top: 10vh;
+}
+
+@media screen and (min-width: 801px) {
+    .cursiv-text {
+        font-size: 2vw;
+    }
+    .welcome h1 {
+        font-size: 5vw;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 800px) {
+    .cursiv-text {
+        font-size: 4vw;
+    }
+}

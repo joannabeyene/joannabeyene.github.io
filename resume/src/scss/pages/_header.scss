@@ -1,0 +1,119 @@
+header {
+    padding: 5vh 0;
+}
+.logo, .tag-line{
+    display: block;
+    color: #722c3d;
+}
+.logo {
+    font-weight: bold;
+    font-size: 4vw;
+    text-shadow: 1.5px 1.5px #380818;
+}
+.tag-line {
+    margin-bottom: 2vh;
+}
+nav {
+    display: flex;
+}
+.menu li a {
+    text-decoration: none;
+    display: block;
+}
+
+@media screen and (min-width: 801px) {
+    .tag-line {
+        font-size: 1.5vw;
+    }
+    .mobile-menu-toggle {
+        display: none;
+    }
+    .contact-bttn-mobile {
+        display: none;
+    }
+    nav {
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav .menu {
+        list-style: none;
+        text-align: center;
+    }
+    .menu li {
+        display: inline-block;
+    }
+    .menu li a {
+        padding: 0 20px;
+        color: #722c3d;
+        font-weight: bold;
+    }
+    .menu li a:hover {
+        color: #b96d49;
+    }
+    .menu li a:after {
+        color:#722c3d;
+        text-decoration: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    header {
+        position: relative;
+    }
+    .contact-bttn-mobile {
+        margin-left: auto;
+        order: 2;
+        cursor: pointer;
+        background-color: #b96d49;
+        width: 20vw;
+        height: 6vh;
+        border: none;
+        color: #fff;
+        border-radius: 5vw;
+        box-shadow: 0 2px 10px #808080;
+        font-size: 2vw;
+    }
+    .contact-bttn-mobile:hover {
+        color: #000;
+    }
+    .contact-bttn-mobile a{
+        text-decoration: none;
+    }
+    .contact-bttn-mobile a:visited {
+        color: white;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 2vh 2vw;
+    }
+    .menu {
+        list-style: none;
+        width: 60%;
+        padding: 0;
+        background-color: #5a212f;
+        display: none;
+        margin-top: 5vh;
+        border: 2px solid white;
+    }
+    .menu li {
+        line-height: 12vh;
+        font-size: 5vw;
+    }
+    .menu li a {
+        border-bottom: 1px solid #ffffffb3;
+        text-align: center;
+        color: #fff;
+    }
+    .menu li a:hover {
+        color: #000;
+    }
+    .mobile-menu-toggle {
+        cursor: pointer;
+    }
+    .active {
+        display: block;
+    }
+}

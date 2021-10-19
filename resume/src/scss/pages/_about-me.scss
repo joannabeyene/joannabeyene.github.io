@@ -1,0 +1,51 @@
+.about-me {
+    background-color: #f5f5f5;
+    margin: 20vh auto;
+    box-shadow: 0 2px 10px #808080;
+    width: 90%;
+}
+.about-me h1, .about-me h2 {
+    font-family: 'Handlee', cursive;
+}
+.about-me h1 {
+    color: #b96d49;
+}
+.about-me img {
+    width: 100%;
+}
+.about-me .skills {
+    text-align: left;
+}
+@media screen and (min-width: 801px) {
+    .about-me {
+        padding-top: 1vh;
+        height: 100vh;
+    }
+    .about-me img {
+        max-width: 300px; 
+        max-height: 400px;
+    }
+    .about-me .skills {
+        display: inline-block;
+    }
+    .about-me .about-me-text {
+        float: left;
+        width: 50%;
+    }
+    .about-me .image {
+        float: right;
+        width: 45%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .about-me {
+        padding: 2vh 0;
+    }
+    .about-me img {
+        max-width: 300px; 
+        max-height: 450px;
+    }
+    .about-me .skills {
+        padding-left: 30%;
+    }
+}
