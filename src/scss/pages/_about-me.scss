@@ -16,14 +16,18 @@
 .about-me .skills {
     text-align: left;
 }
+.about-me .skills ul li {
+    list-style: circle;
+    padding: 3px;
+}
 @media screen and (min-width: 801px) {
     .about-me {
         padding-top: 1vh;
         height: 100vh;
     }
     .about-me img {
-        max-width: 300px; 
-        max-height: 400px;
+        max-width: 200px; 
+        max-height: 300px;
     }
     .about-me .skills {
         display: inline-block;

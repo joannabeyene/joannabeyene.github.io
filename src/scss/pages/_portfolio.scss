@@ -59,23 +59,24 @@ figure {
 }
 @media screen and (max-width: 800px) {
     .portfolio {
-        width: 100%;
-        margin: 20vh 0;
+        width: 90%;
+        margin: 20vh auto;
+        font-size: small;
     }
-    .portfolio img {
-        max-width: 200px; 
-        max-height: 200px;
-    }
-    .portfolio-slider {
-        height: 100%;
-        display: flex;
-        overflow-x: auto;
-    }
-    .slide {
-        width: 70%;
-        flex-shrink: 0;
-    }
-    .portfolio button {
-        width: 20vw;
-    }
+    // .portfolio img {
+    //     max-width: 200px; 
+    //     max-height: 200px;
+    // }
+    // .portfolio-slider {
+    //     height: 100%;
+    //     display: flex;
+    //     overflow-x: auto;
+    // }
+    // .slide {
+    //     width: 70%;
+    //     flex-shrink: 0;
+    // }
+    // .portfolio button {
+    //     width: 20vw;
+    // }
 }

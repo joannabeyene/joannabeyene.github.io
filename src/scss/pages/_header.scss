@@ -60,26 +60,25 @@ nav {
     header {
         position: relative;
     }
+    .logo {
+        text-shadow: 0.5px 0.5px #380818;
+    }
     .contact-bttn-mobile {
         margin-left: auto;
         order: 2;
         cursor: pointer;
         background-color: #b96d49;
         width: 20vw;
-        height: 6vh;
-        border: none;
-        color: #fff;
+        height: 5vh;
         border-radius: 5vw;
-        box-shadow: 0 2px 10px #808080;
-        font-size: 2vw;
+        font-size: 3vw;
+        padding-top: 2vh;
     }
-    .contact-bttn-mobile:hover {
-        color: #000;
-    }
-    .contact-bttn-mobile a{
+    .contact-bttn-mobile {
         text-decoration: none;
+        color: white;
     }
-    .contact-bttn-mobile a:visited {
+    .contact-bttn-mobile:visited {
         color: white;
     }
     nav {

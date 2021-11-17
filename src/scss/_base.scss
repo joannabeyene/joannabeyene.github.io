@@ -20,19 +20,19 @@ body {
     }
 }
 /*****************************BACK TO TOP BUTTON**********************************************/
-// .back-to-top {
-//     position: fixed; 
-//     bottom: 20px;
-//     right: 30px; 
-//     z-index: 99;
-//     border: 1px solid #000;
-//     background-color: #fff;
-//     padding: 0.5vw;
-//     font-weight: bold;
-// }
-// .back-to-top a, .back-to-top a:visited {
-//     color: #000;
-// }
-// .back-to-top:hover {
-//     background-color: #722c3d;
-// }
+.back-to-top {
+    position: fixed; 
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 0.5vw;
+    font-weight: bold;
+}
+.back-to-top a, .back-to-top a:visited {
+    color: #000;
+}
+.back-to-top:hover {
+    background-color: #b96d49;
+}
